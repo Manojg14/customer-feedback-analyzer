@@ -1,0 +1,63 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model cache and downloaded models
+.cache/
+huggingface_cache/
+models/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Database files
+*.sqlite3
+*.db
