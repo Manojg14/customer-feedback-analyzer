@@ -1,0 +1,58 @@
+Prompt - 1:
+==========
+
+I want to bulit a beginner-friendly AI Customer Feedback Analyzer.
+
+Tech stack:
+----------
+
+- Python
+- Streamlit
+- Hugging Face Transformers
+- Pandas
+
+The app should:
+--------------
+
+- Analyzer one customer review
+- Predict positive or negative sentiment
+- Show a confidence score
+- Later allow CSV upload for multiple reviews
+- Give me a simple step-by-step plan.
+- Do not write the full code yet.
+
+Prompt - 2:
+==========
+
+Create the first version of app.py
+
+Requirements:
+------------
+
+- Use Streamlit
+- Add the title AI Customer Feedback Analyzer
+- Add a text area for a customer review
+- Add an Analyzer button
+- Use Hugging Face Transformers sentiment-analysis pipeline
+- Show sentiment label and confidence score
+- Keep it beginner-friendly
+- Do not add CSV upload yet 
+
+Prompt - 3:
+==========
+
+Assume the CSV contains a column called review.
+
+Requirements:
+------------
+
+- Upload CSV files only
+- Read the file using Pandas
+- Ignore empty reviews
+- Run sentiment analysis for every review
+- Add sentiment and confidence columns
+- Display the result as a table
+- Show total, positive and negative review counts
+- Do not remove the existing single review feature.
+
+Explain only the new code you added.
